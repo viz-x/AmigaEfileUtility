@@ -1,0 +1,32 @@
+*Amiga-E File Utility*
+
+A lightweight command-line file management utility for AmigaOS written in authentic Amiga-E. Provides basic file listing, information display, and text file viewing.
+
+*Features*
+- List files and directories
+- View file metadata (size, date, type)
+- Preview text files (first 50 lines)
+- Simple menu-driven interface
+- Classic Amiga-E programming style
+
+*Compilation*
+```
+ec -c amiga-e-file-utility.e
+eam amiga-e-file-utility
+```
+
+*Usage*
+```
+amiga-e-file-utility
+```
+
+Commands:
+- *L* - List directory contents
+- *V* - View file information  
+- *O* - Open and view text file
+- *Q* - Quit
+
+*Requirements*
+- AmigaOS 2.0+
+- Amiga-E compiler
+- 512KB RAM minimum
